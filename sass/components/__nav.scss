@@ -1,5 +1,5 @@
 .nav {
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -11,11 +11,11 @@
         @extend %list;
         display: flex;
     }
-    
+
     &__item:not(:last-child) {
         margin-right: 50px;
     }
-    
+
     &__list .link {
         display: block;
         padding-top: 32px;
